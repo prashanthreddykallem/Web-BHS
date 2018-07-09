@@ -3,7 +3,7 @@
 ## Step 1 Enter www.xoken.org
 Enter the address in the address bar of the web browser 
 
-##Step 2 DNS Search 
+## Step 2 DNS Search 
 
 **Domain Naming System** is a naming system which assigns human understandable names to the addresses (IP address ) of servers . It is used to translate domain names (Human understandable) to IP addresses.
 
@@ -11,7 +11,7 @@ When you enter a Domain Name (www.xoken.org) the browser initiates the DNS looku
 If the address is not found in the cache then it is looked up in multiple DNS servers on the Internet until we find the address 
 
 
-##Step 3 TCP Connection 
+## Step 3 TCP Connection 
 **Transmission Control Protocol** is the most common protocol used on the internet for connections. It is connection oriented,reliable protocol
 
 Once we get the IP address of www.xoken.org (144.217.163.51) we establish a TCP connection between the client and the server   
@@ -24,7 +24,7 @@ This is a three step process where the client and the server exchange SYN (synch
 
 With this a connection is established between Client and the Server
 
-##Step 4 HTTP  
+## Step 4 HTTP  
 
 **Hyper Text Transfer Protocol** is a protocol used for transfer of hypertext . It is used to for sending and receiving data between client and server
 
@@ -35,6 +35,6 @@ The request handler is written in server side languages like PHP,ASP.NET,Ruby et
 It generates the response in a certain format like HTML,CSS,XML,JSON etc
 This response along with HTTP Response header is sent to the client 
 
-##Step 5 Display of Web page 
+## Step 5 Display of Web page 
 The browser will load the HTML web page and if there are any HTML tags like <img> it will send a request to load that element
 
