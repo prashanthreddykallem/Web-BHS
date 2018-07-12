@@ -30,11 +30,10 @@ With this a connection is established between Client and the Server
 
 The Client sends a HTTP request message to the server.The request may be of the form GET or POST
 The browser send a GET request to the xoken server.
-The server has a web server (Apache/2.2.22 (Debian)).It receives the request from the browser and passes it to a request handler to read and generate a response
-The request handler is written in server side languages like PHP,ASP.NET,Ruby etc
-It generates the response in a certain format like HTML,CSS,XML,JSON etc
-This response along with HTTP Response header is sent to the client 
+The server has a web server (Apache/2.2.22 (Debian)).It receives the request from the browser and passes it to a request handler to read and generate a response.
+The request handler is written in server side languages like PHP,ASP.NET,Ruby etc.
+It generates the response in a certain format like HTML,CSS,XML,JSON etc.
+This response along with HTTP Response header is sent to the client .
 
 ## Step 5 Display of Web page 
-The browser will load the HTML web page and if there are any HTML tags like <img> it will send a request to load that element
-
+The HTML response is received by the browser then the browser parses the HTML to render the page. Wherever the  web page includes images or other embedded content that is not part of the HTML document. The browser will then send off further requests (to the original server or the another server which has the information) to fetch the embedded content, which will then be rendered into the document as well.
